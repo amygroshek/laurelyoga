@@ -1,23 +1,22 @@
 .laurel-btn {
-background: #43266f;
-color: white;
-padding: 8px;
-font-weight: bold;
+    background: #43266f;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
 }
 
 /* article and press slider color */
 .post-type-archive-portfolio .da-thumbs article {
-background: rgba(67,38,111,0.7);
+    background: rgba(67,38,111,0.7);
 }
 
 .post-type-archive-portfolio .da-thumbs .hover-excerpt {
-font-size:14px;
+    font-size:14px;
 }
 
-
 .laurel-btn:hover {
-background: rgba(0, 0, 0, 0.4);
-color:white;
+    background: rgba(0, 0, 0, 0.4);
+    color:white;
 }
 
 .header-style2 #logo img {
@@ -26,33 +25,33 @@ color:white;
 
 .mailchimp-hide .mailchimp-desc,
 .mailchimp-hide .mailchimp-label {
-display:none;
+    display:none;
 }
 
 .agenda .event {
-border-bottom:none !important;
+    border-bottom:none !important;
 }
 .view-container-border{
-background:#e5e5e5 !important;
+    background:#e5e5e5 !important;
 }
 .agenda .date-label {
-background: #e5e5e5 !important;
+    background: #e5e5e5 !important;
 }
 
 .ccchildpage .cc-child-pages-thumb {
-height:200px;
-width:300px;
-float:left;
-margin-right:10px;
+    height:200px;
+    width:300px;
+    float:left;
+    margin-right:10px;
 }
 
 .ccchildpage .ccpages_excerpt,
 .ccchildpage .ccpages_more {
-font-size:100%;
+    font-size:100%;
 }
 
 #sidebar .StaticEvents .textwidget {
-border:0px solid white;
+    border:0px solid white;
 }
 
 #slider .rslides-content.style3 .featured-link a, .thinkupslider-sc .rslides-content.style3 .featured-link a {
@@ -69,7 +68,7 @@ border:0px solid white;
 .laurels-purple h6,
 .laurels-purple p,
 .laurels-purple a {
-color: #43266f !important;
+    color: #43266f !important;
 }
 
 .header-style2 #header .header-links > ul > li > a {
@@ -78,44 +77,22 @@ color: #43266f !important;
 }
 
 #filter.portfolio-filter li a.selected {
-color:white;
+    color:white;
 }
 
-/* #rslides1_s0 {
-    width:427px;
-    height:240px;
-    position: relative;
-}
-#filter.portfolio-filter {
-display: none;
-}
-
-*/
 /* Hide new grid blog layouts - IN DEVELOPMENT */
 .blog-style2 .blog-grid.column-1 .blog-thumb img {
-width: 100%;
+    width: 100%;
 }
-
-/* Hide WooCommercec cart menu */
-/* .thinkup-demosite #woo-cart-menu {
-display: none;
-}*/
-
-/* Disable checkout */
-/* .thinkup-demosite .woocommerce #payment #place_order {
-   pointer-events: none;
-   cursor: default;
-}*/
-
 
 @media only screen and (min-width: 768px) {
     /* For desktop: normalize display for portfolio */
-; .post-type-archive-portfolio .da-thumbs { overflow:hidden; }
-.post-type-archive-portfolio .da-thumbs li, .post-type-archive-portfolio .da-thumbs li > a img { width:275px; height:183px;}
+    ; .post-type-archive-portfolio .da-thumbs { overflow:hidden; }
+    .post-type-archive-portfolio .da-thumbs li, .post-type-archive-portfolio .da-thumbs li > a img { width:275px; height:183px;}
 }
 
-p {
-font-size:13px;
+p, li, ul {
+    font-size:14px;
 }
 
 /* Event manager styles */
@@ -128,14 +105,43 @@ font-size:13px;
     background-color: #43266f;
 }
 
-.events-list.tribe-bar-is-disabled #tribe-events-content-wrapper {
-max-width:none;
+/* ecs events list shortcode styles for sidebar and content area */
+#sidebar .ecs-event-list,
+#sidebar .ecs-event-list li {
+    border: none;
+    border-bottom: none;
 }
 
-.tribe-events-user-recurrence-toggle {
-display:none;
+#sidebar .ecs-event-list li {
+    margin-bottom: 10px;
 }
 
-.events-list.tribe-events-style-full #tribe-events-bar {
-display: none;
+#sidebar .ecs-event-list h4.entry-title {
+    margin-bottom: 5px;
+    font-size: 12px;
 }
+
+#sidebar .ecs-event-list li .recurringinfo {
+    display: none;
+}
+
+#sidebar .ecs-event-list h4.entry-title a {
+    padding: 0;
+}
+
+#sidebar .ecs-event-list p.ecs-excerpt,
+#sidebar .ecs-event-list span.duration.venue,
+#sidebar .ecs-event-list span.duration.time {
+    font-size: 10px;
+}
+
+#sidebar .ecs-event-list p.ecs-excerpt {
+    margin-bottom: 5px;
+}
+
+#sidebar .ecs-event-list li img {
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+
