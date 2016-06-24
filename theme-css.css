@@ -105,6 +105,26 @@ p, li, ul {
     background-color: #43266f;
 }
 
+.tribe-events-list .tribe-events-event-image img {
+    width: 150px;
+    height: 150px;
+}
+
+.tribe-events-page-title a {
+    display: none;
+}
+
+h2.tribe-events-page-title {
+    text-align: left;
+}
+
+.tribe-event-schedule-details,
+.tribe-events-venue-details,
+.tribe-address span {
+    line-height: 1.5em;
+    font-weight: normal;
+}
+
 /* ecs events list shortcode styles for sidebar and content area */
 #sidebar .ecs-event-list,
 #sidebar .ecs-event-list li {
@@ -119,6 +139,7 @@ p, li, ul {
 #sidebar .ecs-event-list h4.entry-title {
     margin-bottom: 5px;
     font-size: 12px;
+    color: #43266f;
 }
 
 #sidebar .ecs-event-list li .recurringinfo {
@@ -127,6 +148,7 @@ p, li, ul {
 
 #sidebar .ecs-event-list h4.entry-title a {
     padding: 0;
+    font-weight: bold;
 }
 
 #sidebar .ecs-event-list p.ecs-excerpt,
@@ -141,7 +163,71 @@ p, li, ul {
 
 #sidebar .ecs-event-list li img {
     float: left;
-    margin: 0 5px 5px 0;
+    margin: 5px 5px 5px 0;
 }
 
+#sidebar .ecs-event-list span.duration.venue,
+#sidebar .ecs-event-list span.duration.time {
+    display: block;
+}
 
+/* Front page ecs event list */
+.front-page-calendar .ecs-event-list,
+.front-page-calendar .ecs-event-list li {
+    border: none;
+    border-bottom: none;
+}
+
+.front-page-calendar .ecs-event-list li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+.front-page-calendar .ecs-event-list h4.entry-title {
+    margin-bottom: 5px;
+    font-size: 12px !important;
+    color: #43266f;
+}
+
+.front-page-calendar .ecs-event-list li .recurringinfo {
+    display: none;
+}
+
+.front-page-calendar .ecs-event-list h4.entry-title a {
+    padding: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.front-page-calendar .ecs-event-list p.ecs-excerpt,
+.front-page-calendar .ecs-event-list span.duration.venue,
+.front-page-calendar .ecs-event-list span.duration.time {
+    font-size: 12px;
+}
+
+.front-page-calendar .ecs-event-list p.ecs-excerpt {
+    margin-bottom: 5px;
+}
+
+.front-page-calendar .ecs-event-list li img {
+    float: left;
+    margin: 5px 5px 5px 0;
+}
+
+.front-page-calendar .ecs-event-list span.duration.venue,
+.front-page-calendar .ecs-event-list span.duration.time {
+    display: block;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Helvetica, Arial,
+    font-weight: 100;
+}
+
+.wp-caption .wp-caption-text {
+    text-align: center;
+}

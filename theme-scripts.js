@@ -9,4 +9,13 @@ jQuery(window).load(function(){
         alert('Contact form is disabled');
         return false;
     });
+
+    // Remove 'Upcoming Events ›' breadcrumb from tribe events calendar list displays
+    $target = jQuery('h2.tribe-events-page-title');
+    if ($target.length !== 0){
+        $string = $target.html();
+        $string = $string.replace('Upcoming Events', '');
+        $string = $string.replace('›', '');
+        $target.html($string);
+    }
 });
