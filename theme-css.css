@@ -5,6 +5,23 @@
     font-weight: bold;
 }
 
+.button.style1,
+.button.style2
+.button.style3
+.button.style4 {
+    background-color: #43266f;
+    background: #43266f;
+    color: white;
+    padding: 8px;
+    /* font-weight: bold; */
+    border-radius: 0px;
+}
+
+.button.purple {
+    background-color: #43266f;
+    background: #43266f;
+}
+
 /* article and press slider color */
 .post-type-archive-portfolio .da-thumbs article {
     background: rgba(67,38,111,0.7);
