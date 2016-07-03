@@ -248,3 +248,34 @@ textarea {
 .wp-caption .wp-caption-text {
     text-align: center;
 }
+
+/*
+ * Blog entry styles
+ */
+
+/* Default blog entry/list styles */
+.blog-article {
+     border: 0px;
+}
+
+/* Blog category list plugin styles */
+.bok-blog-catlist li {
+    list-style: none;
+    margin: 0 0 1em 0;
+}
+
+.catlist-title {
+    display: block;
+    font-size: 16px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+}
+
+.catlist-thumb {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
+
+.catlist-readmore {
+    margin: 10px;
+}
