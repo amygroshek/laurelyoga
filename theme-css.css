@@ -279,3 +279,35 @@ textarea {
 .catlist-readmore {
     margin: 10px;
 }
+
+/* Reformat the stupid social media icons below single blog posts */
+.single-post #sharemessage {
+    display: none;
+}
+
+.single-post #shareicons {
+    display: block;
+}
+
+.archive .blog-grid.element.column-1 {
+    position: relative !important;
+    display: inline-block !important;
+    margin: 0 0 10px 0 !important;
+    top: 0px !important;
+}
+
+.archive #main {
+    width: 100%;
+}
+
+.archive #sidebar {
+    display: none;
+}
+
+.archive .blog-article {
+    margin-bottom: 0px;
+}
+
+.archive #intro {
+    display: none;
+}
