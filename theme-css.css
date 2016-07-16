@@ -142,6 +142,11 @@ h2.tribe-events-page-title {
     font-weight: normal;
 }
 
+/* Hide next and previous on event page views */
+ul.tribe-events-sub-nav {
+    display: none;
+}
+
 /* ecs events list shortcode styles for sidebar and content area */
 #sidebar .ecs-event-list,
 #sidebar .ecs-event-list li {
@@ -310,4 +315,18 @@ textarea {
 
 .archive #intro {
     display: none;
+}
+
+/*
+ * Display the sideblocks below main content in mobile view
+ * for pages where there is a sideblock.
+ */
+/* Small Tablets & Larger Phones */
+@media only screen and (max-width: 685px) {
+
+    /* Main */
+    #sidebar {
+        display: block !important;
+        width: 100% !important;
+    }
 }
