@@ -317,6 +317,11 @@ textarea {
     display: none;
 }
 
+/* Remove the nav buttons at the bottom of single blog posts. */
+.single-post #nav-below {
+    display: none;
+}
+
 /*
  * Display the sideblocks below main content in mobile view
  * for pages where there is a sideblock.
