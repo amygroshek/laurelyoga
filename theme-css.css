@@ -246,7 +246,7 @@ button,
 input,
 select,
 textarea {
-    font-family: Helvetica, Arial,
+    font-family: Helvetica, Arial;
     font-weight: 100;
 }
 
@@ -338,4 +338,12 @@ textarea {
     #sidebar-core {
         margin-left: 0px;
     }
+}
+
+/* video header sizing and color */
+.bok-video-feature {
+    font-family: Helvetica, Arial;
+    font-weight: 100;
+    font-size: 18px;
+    color: #43266f !important;
 }
